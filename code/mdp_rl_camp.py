@@ -1,3 +1,6 @@
+
+###########Campaign Strategy as a Markov Decision Process (MDP)##############
+
 import numpy as np
 
 # Define states and actions
@@ -77,12 +80,9 @@ print("Value Iteration - Optimal Policy:", policy_vi)
 V_pi, policy_pi = policy_iteration(states, actions, T, R, gamma)
 print("Policy Iteration - Optimal Value Function:", V_pi)
 print("Policy Iteration - Optimal Policy:", policy_pi)
-
    
-    
-    
 
-########RL############
+########Reinforcement Learning (RL) to Optimize Campaign Strategy############
 import numpy as np
 import random
 
